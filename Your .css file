@@ -1,1 +1,76 @@
-
+* { 
+box-sizing: border-box;
+background-color: light red;
+}
+body {
+background-image: linear-gradient(to bottom, #FFFFFF 20%, #90C7E3 60%);  
+background-color: #90C7E3;
+color: black;
+font-family: Verdana, Arial, sans-serif;
+margin: 0;
+}
+#wrapper { 
+margin: auto;
+width: 80%; 
+background-color: #FFFFFF;
+}
+header { 
+background-color: #002171;
+font-family: Georgia, serif;
+padding: 1em;
+}
+h1 {
+color: white;
+font-size: 2em;
+text-align: center;
+}
+h2 { 
+color: Red;
+font-family: Georgia, serif; 
+}
+h3 { 
+font-family: Georgia, serif; 
+}
+nav { 
+background-color: #ffffff;
+font-size: 1.2em;
+text-align: center;
+}
+nav a 
+{ text-decoration: none; }
+nav a:link       
+{ color: #5C7FA3; }
+nav a:visited 
+{ color: #344873; }
+nav a:hover     
+{ color: #A52A2A; }
+nav ul { 
+list-style-type: none; 
+margin: 0; 
+}
+nav li { 
+display: inline-block;
+height: 45px;
+padding: .5em 1em;
+margin-left: 8px;
+margin-right: 8px;  
+}
+main { 
+padding: 0 1em;
+}
+.resort { 
+color: #1976D2;
+font-size: 1.2em;
+}
+.right {
+float: right;
+padding: 8px;  
+}
+footer { 
+clear: both;  
+background-color: white;
+font-size: .70em;
+font-style: italic;
+padding: 1em;
+text-align: center;
+}
